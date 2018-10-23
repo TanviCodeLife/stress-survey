@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Stress Test</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Health Survey</h2>
+        <p>Select options that apply to you and get a personalised health solution!</p>
+      </div>
+      <form id="health_survey">
+        <div class="form-group">
+          <p> <br> How are you feeling?</p>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="stressOne" value="1" id="stress1_1">
+            <label class="form-check-label" for="stress1_1">Loss of sleep.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="stressOne" value="1" id="stress1_2">
+            <label class="form-check-label" for="stress1_2">Feeling overwhelmed.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="stressOne" value="1" id="stress1_3">
+            <label class="form-check-label" for="stress1_3">Loss of apetite.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="stressOne" value="1" id="stress1_4">
+            <label class="form-check-label" for="stress1_4">Backache.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="stressOne" value="1" id="stress1_5">
+            <label class="form-check-label" for="stress1_5">Lack of concentration.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="stressOne" value="1" id="stress1_6">
+            <label class="form-check-label" for="stress1_6">Dry Mouth.</label>
+          </div>
+          <p> <br> Any physical symptoms?</p>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="stressTwo" value="1" id="stress2_1">
+            <label class="form-check-label" for="stress2_1">High blood pressure.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="stressTwo" value="2" id="stress2_2">
+            <label class="form-check-label" for="stress2_2">Anxiety.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="stressTwo" value="3" id="stress2_3">
+            <label class="form-check-label" for="stress2_3">Anxiety.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="stressTwo" value="4" id="stress2_4">
+            <label class="form-check-label" for="stress2_4">Insomnia.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="stressTwo" value="5" id="stress2_5">
+            <label class="form-check-label" for="stresss2_5">Frequent cold and infections.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="stressTwo" value="6" id="stress2_6">
+            <label class="form-check-label" for="stress2_6">Nausea.</label>
+          </div>
+          <p> <br> Are you taking any of these steps to cope?</p>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="stressThree" value="1" id="stress3_1">
+            <label class="form-check-label" for="stress3_1">Manage time.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="stressThree" value="2" id="stress3_2">
+            <label class="form-check-label" for="stress3_2">Pet a dog.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="stressThree" value="3" id="stress3_3">
+            <label class="form-check-label" for="stress3_3">Get more sleep.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="stressThree" value="4" id="stress3_4">
+            <label class="form-check-label" for="stress3_4">Meditate or Workout.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="stressThree" value="5" id="stress3_5">
+            <label class="form-check-label" for="stress3_5">Stay Hydrated.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="stressThree" value="6" id="stress3_6">
+            <label class="form-check-label" for="stress3_6">Eat Healthy.</label>
+          </div>
+        </div>
+        <button type="submit">Submit Survey</button>
+      </form>
+      <span id="remedy-responses">
+
+      </span>
+    </div>
+  </body>
+  </html>
